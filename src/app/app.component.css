@@ -1,0 +1,132 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.cv_layout{
+    width: 950px;
+    height: 100vh;
+    border: 1px solid black;
+}
+.name{
+    color: rgba(243, 243, 10, 0.558);
+    font-size: 70px;
+}
+.profession{
+    font-size: 40px;
+    opacity: 0.7;
+}
+
+.name-info{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cv_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name-info{
+    display: flex;
+    
+}
+
+.section_begin{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-title{
+    color: rgba(243, 243, 10, 0.558);
+    font-size: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aboutme{
+    width: 400px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.education-title{
+    color: rgba(243, 243, 10, 0.558);
+    font-size: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skill{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.skills_education{
+    width: 400px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skills_title{
+    color: rgba(243, 243, 10, 0.558);
+    font-size: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section_mid{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill_grade{
+    display:inline-table;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill_grname{
+    display: flex;
+}
+
+.lng_grade{
+    display:inline-table;
+
+}
+
+.language_grname{
+    display: flex;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+}
+
+.languages_title{
+    color: rgba(243, 243, 10, 0.558);
+    font-size: 40px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section_lgs{
+    width: 400px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    bottom: 3%;
+    left: 26.8%;
+}
+
+.lng{
+    display: flex;
+    align-items: center;
+    gap: 97px;
+}
+
+
